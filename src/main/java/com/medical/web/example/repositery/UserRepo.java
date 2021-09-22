@@ -14,5 +14,6 @@ public interface UserRepo extends CassandraRepository<User,Integer> {
 
     Optional<User> findByConfirmationToken(String token);
 
-    List<User> findAllById(Iterable<Integer> integers);
+    List<User> findAllByName(Iterable<Integer> integers);
+
 }
