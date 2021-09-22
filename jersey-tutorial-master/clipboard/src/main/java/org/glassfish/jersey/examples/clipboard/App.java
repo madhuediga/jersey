@@ -102,6 +102,8 @@ public class App {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+	public static getAll(){
+	}
 
     /**
      * Create example application resource configuration.
